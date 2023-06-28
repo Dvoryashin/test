@@ -90,3 +90,4 @@
 [Mon Jun 26 21:23:20.979021 2023] [php:warn] [pid 2833] [client 127.0.0.1:49512] PHP Warning:  include(/var/www/savedoc.com/application/application/core/controller.php): Failed to open stream: No such file or directory in /var/www/savedoc.com/application/controllers/controller_portfolio.php on line 2
 [Mon Jun 26 21:23:20.979075 2023] [php:warn] [pid 2833] [client 127.0.0.1:49512] PHP Warning:  include(): Failed opening '/var/www/savedoc.com/application/application/core/controller.php' for inclusion (include_path='.:/usr/share/php') in /var/www/savedoc.com/application/controllers/controller_portfolio.php on line 2
 [Mon Jun 26 21:23:20.979105 2023] [php:error] [pid 2833] [client 127.0.0.1:49512] PHP Fatal error:  Uncaught Error: Class "Controller" not found in /var/www/savedoc.com/application/controllers/controller_portfolio.php:3\nStack trace:\n#0 {main}\n  thrown in /var/www/savedoc.com/application/controllers/controller_portfolio.php on line 3
+f
